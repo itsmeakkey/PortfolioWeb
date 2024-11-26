@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import Navbar from "@/components/navbar";
 import { Urbanist } from "next/font/google"
 import "./globals.css";
 
@@ -22,8 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${urbanist.className}`}
-      >
+        className={`${urbanist.className}`}>
+          <Navbar/> 
+          {/* El Navbar es permanente al estar en el layout */}
         {children}
       </body>
     </html>
