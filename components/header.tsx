@@ -23,6 +23,7 @@ const Header = () => {
                         <Link key={id}
                         href={src}
                         target="_blank"
+                        className="transition-all duration-300 hover:text-secondary" /*Efecto al poner cursor encima de redes*/
                         
                         >
                             {logo}

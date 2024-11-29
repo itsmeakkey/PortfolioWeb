@@ -9,11 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        secondary: "#f5741c",
+        secondary: "#00B4D8", /*Color segundario en cian para contrastar elementos*/
         darkBg: "#131424"
       },
       backgroundImage: {
-        'gradient-cover': "linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)"
+        'gradient-cover': "linear-gradient(90.21deg, rgba(30, 58, 138, 0.5) 0%, rgba(37, 99, 235, 0.3) 100%)"
       }
     },
   },

@@ -4,15 +4,15 @@ import { fadeIn } from '@/utils/motion-transitions';
 
 
 interface MotionTransitionProps {
-    children: React.ReactNode
-    position: 'right' | 'bottom'
+    children: React.ReactNode //Por defecto con React
+    position: 'right' | 'bottom' //Lo pasamos a FadeIn
     className?: string
 }
 
 const MotionTransition = (props: MotionTransitionProps) => {
     const { children, position, className } = props
-    return (
-        <motion.div
+    return ( //Div que acepta props diferentes
+        <motion.div 
             variants={fadeIn(position)}
             initial= "hidden"
             animate="visible"
