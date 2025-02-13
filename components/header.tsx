@@ -28,13 +28,12 @@ const Header = () => {
                         >
                             {logo}
                         </Link>
-                    
+        
 
                     ))}
                     </div>
                 </div>
             </header>
-
         </MotionTransition>
     )
 }
