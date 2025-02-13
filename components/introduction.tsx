@@ -51,7 +51,7 @@ const Introduction = () => {
                             Mis proyectos
                         </a>
                         <a
-                            href="CV_David_Ruiz_Aranda.pdf" target_="_blank" rel="noreferrer"
+                            href="CV_David_Ruiz_Aranda.pdf"  target="_blank" 
                             className="px-4 py-2 border-2 border-secondary text-secondary rounded-lg text-md transition-all hover:shadow-xl hover:shadow-secondary text-center"
                         >
                             Descarga mi CV

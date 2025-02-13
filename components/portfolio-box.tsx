@@ -13,7 +13,7 @@ interface PortfolioBoxProps {
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
     const { data } = props
-    const { id, title, image, urlDemo, urlGithub } = data
+    const { id, title, image, urlGithub } = data
 
     return (
         <div
