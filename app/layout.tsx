@@ -16,7 +16,7 @@ const urbanist = Urbanist({
 //Título de página
 export const metadata: Metadata = {
   title: "💻 AkkeyDev",
-  description: "Landing page hecha por Akkey.",
+  description: "¡Bienvenido a mi sitio web!.",
 };
 
 export default function RootLayout({
